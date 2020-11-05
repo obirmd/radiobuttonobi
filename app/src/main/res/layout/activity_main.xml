@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="204dp"
+        android:text="@string/ayam"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="366dp"
+        tools:text="Ayam Goreng" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/rendang"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:text="Rendang" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="264dp"
+        android:text="@string/sate"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="86dp"
+        tools:text="Sate" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="212dp"
+        android:text="@string/nasi"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="231dp"
+        tools:text="Nasi Goreng" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="252dp"
+        android:text="@string/bakso"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="156dp"
+        tools:text="Bakso" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="228dp"
+        android:text="@string/mieayam"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="303dp"
+        tools:text="Mie Ayam" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="31dp"
+        tools:text="Pilih Makanan Kesukaanmu" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="325dp"
+        android:layout_height="49dp"
+        android:text="@string/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="509dp"
+        tools:text="Pilih" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copy"
+        android:textColor="#4C4848"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="568dp"
+        tools:text="Obi Ramdhani - 20180040060" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
